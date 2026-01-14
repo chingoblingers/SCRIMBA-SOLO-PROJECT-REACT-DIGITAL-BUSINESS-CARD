@@ -2,3 +2,32 @@ body{
   font-size: 62.5%;
 }
 
+#root {
+  max-width: 400px;
+  margin: 0 auto;
+  border: 5px solid black;
+}
+
+header img {
+  width: 100%;
+  max-height: 80%;
+}
+
+.container , footer{
+  display: flex;
+}
+
+
+.intro, section{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title{
+  align-self: flex-start;
+}
+
+footer{
+justify-content: space-around;
+}
