@@ -1,5 +1,9 @@
+import kenImg from "./../assets/Ken.jpg"
+
 export default function Header(){
     return (
-        <h1> TOP </h1> 
+        <header> 
+        <img src={kenImg} alt='Photo of Ken'/>  
+        </header>
     )
 }
